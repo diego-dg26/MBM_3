@@ -1,35 +1,23 @@
-# Metodología
+## LÍNEAS DE COMANDOS UTILIZADAS
 
-1. Descarga de la secuencia genómica desde NCBI.
-2. Almacenamiento del archivo FASTA.
-3. Análisis mediante comandos Linux.
-4. Conteo de nucleótidos.
-5. Búsqueda de patrones biológicos.
-6. Automatización mediante scripts bash.
-7. Documentación en GitHub.
-
-# Dataset utilizado
-
-Fuente: NCBI
-
-Accession: MT781409.1
-
-Enlace: https://www.ncbi.nlm.nih.gov/nuccore/MT781409.1
-
-Formato: FASTA
-
-| Característica        | Galaxy    | Línea de comandos |
-| --------------------- | --------- | ----------------- |
-| Facilidad de uso      | Alta      | Media             |
-| Requiere programación | No        | Sí                |
-| Automatización        | Limitada  | Alta              |
-| Flexibilidad          | Media     | Muy alta          |
-| Reproducibilidad      | Alta      | Muy alta          |
-| Uso en bioinformática | Académico | Profesional       |
-
-# Línea de comandos utilizada
-
-## Crear carpeta principal
-
-```bash
-mkdir proyecto_final
+| Comando                                          | Función                      | Aplicación en el proyecto                         |
+| ------------------------------------------------ | ---------------------------- | ------------------------------------------------- |
+| `mkdir proyecto_final`                           | Crear carpeta principal      | Generar el directorio del proyecto bioinformático |
+| `cd proyecto_final`                              | Entrar a una carpeta         | Acceder al directorio de trabajo                  |
+| `mkdir data`                                     | Crear carpeta                | Almacenar datos del proyecto                      |
+| `mkdir data/raw`                                 | Crear subcarpeta             | Guardar secuencias FASTA originales               |
+| `mkdir resultados`                               | Crear carpeta                | Organizar resultados generados                    |
+| `mkdir docs`                                     | Crear carpeta                | Guardar documentación y reportes                  |
+| `ls`                                             | Listar archivos y carpetas   | Verificar estructura del proyecto                 |
+| `mv MT781409.1.fasta data/raw/`                  | Mover archivos               | Organizar el archivo FASTA descargado             |
+| `cd data/raw`                                    | Cambiar directorio           | Acceder a la carpeta de secuencias                |
+| `cat MT781409.1.fasta`                           | Mostrar contenido de archivo | Visualizar la secuencia biológica FASTA           |
+| `find . -name "*.fasta"`                         | Buscar archivos              | Localizar archivos FASTA dentro del sistema       |
+| `wc -l MT781409.1.fasta`                         | Contar líneas                | Obtener estadísticas básicas del archivo          |
+| `nano README.md`                                 | Editar archivos de texto     | Crear y editar el README del proyecto             |
+| `git init`                                       | Inicializar Git              | Crear repositorio local                           |
+| `git status`                                     | Ver estado del repositorio   | Revisar cambios realizados                        |
+| `git add .`                                      | Agregar archivos a Git       | Preparar archivos para commit                     |
+| `git commit -m "README y documentación técnica"` | Crear commit                 | Guardar cambios realizados                        |
+| `git remote add origin URL_REPOSITORIO`          | Vincular repositorio remoto  | Conectar GitHub con el proyecto local             |
+| `git push origin main`                           | Subir archivos a GitHub      | Publicar el proyecto en línea                     |
