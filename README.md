@@ -26,3 +26,10 @@ Formato: FASTA
 | Flexibilidad          | Media     | Muy alta          |
 | Reproducibilidad      | Alta      | Muy alta          |
 | Uso en bioinformática | Académico | Profesional       |
+
+# Línea de comandos utilizada
+
+## Crear carpeta principal
+
+```bash
+mkdir proyecto_final
