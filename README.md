@@ -21,3 +21,21 @@
 | `git commit -m "README y documentación técnica"` | Crear commit                 | Guardar cambios realizados                        |
 | `git remote add origin URL_REPOSITORIO`          | Vincular repositorio remoto  | Conectar GitHub con el proyecto local             |
 | `git push origin main`                           | Subir archivos a GitHub      | Publicar el proyecto en línea                     |
+
+## COMANDOS GITHUB UTILIZADOS
+
+| Comando                                          | Función                                          | Uso en el proyecto                               |
+| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
+| `git init`                                       | Inicializa un repositorio Git local              | Crear el repositorio del proyecto bioinformático |
+| `git status`                                     | Muestra el estado de los archivos                | Verificar archivos modificados o pendientes      |
+| `git add .`                                      | Agrega todos los archivos al área de preparación | Preparar README, FASTA y resultados para commit  |
+| `git add README.md`                              | Agrega únicamente el archivo README              | Subir documentación técnica específica           |
+| `git commit -m "README y documentación técnica"` | Guarda cambios en el historial Git               | Registrar avances del proyecto                   |
+| `git remote add origin URL_REPOSITORIO`          | Vincula repositorio local con GitHub             | Conectar el proyecto con el repositorio remoto   |
+| `git branch -M main`                             | Renombra la rama principal                       | Configurar la rama principal del repositorio     |
+| `git push origin main`                           | Envía archivos al repositorio remoto             | Publicar el proyecto en GitHub                   |
+| `git pull origin main`                           | Descarga cambios del repositorio remoto          | Actualizar el proyecto local                     |
+| `git clone URL_REPOSITORIO`                      | Copia un repositorio remoto                      | Descargar el proyecto desde GitHub               |
+| `git log`                                        | Muestra historial de commits                     | Revisar cambios realizados en el proyecto        |
+| `git rm archivo`                                 | Elimina archivos del repositorio                 | Borrar archivos innecesarios                     |
+| `git mv archivo carpeta/`                        | Mueve archivos dentro del repositorio            | Reorganizar carpetas y documentos                |
