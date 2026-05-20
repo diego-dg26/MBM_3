@@ -42,3 +42,7 @@
 
 
 <img width="1266" height="591" alt="image" src="https://github.com/user-attachments/assets/5a9e6ce9-d171-4391-b3c2-66aa12437a20" />
+
+
+*ESCHERICHIA COLI*  ESCHERICHIA COLI
+
